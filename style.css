@@ -7,8 +7,21 @@
 img {
     height: 100vh;
     width: 100vw;
+    filter: brightness(75%);
 }
 
 .box-city {
     position: relative;
+}
+
+.city-name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 10rem;
+    font-family: Verdana, Geneva, sans-serif;
+    text-shadow: 5px 5px 10px #000000;
+    color: white;
 }
